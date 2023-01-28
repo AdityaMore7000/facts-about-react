@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* navbar */
 
 .navbar{
@@ -40,6 +41,8 @@
   font-size: x-large;
 }
 .list ul{
+  position: relative;
+  z-index: 1;
   margin-left: 1.5rem;
 }
 
@@ -48,6 +51,8 @@
 }
 
 .list h1{
+  position: relative;
+  z-index: 1;
   margin: 2rem 0;
 }
 
@@ -55,14 +60,15 @@
   color: #64DCFB;
 }
 
-.list{
-  background-image: url("images/reactjs-icon-2.png");
-  background-repeat: no-repeat;
-  background-position-y: center;
-  background-position-x: right;
+#bckg{
+  position: absolute;
+  z-index: 0;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
-
 /* media queries */
+
 @media screen and (max-width:446px) {
   .navbar{
     height: 15vh;
