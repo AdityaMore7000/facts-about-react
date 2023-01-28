@@ -55,8 +55,34 @@
   color: #64DCFB;
 }
 
-#bcimg{
-  position: absolute;
-  top: 30vh;
-  right: 0;
+.list{
+  background-image: url("images/reactjs-icon-2.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: right;
+}
+
+/* media queries */
+@media screen and (max-width:446px) {
+  .navbar{
+    height: 15vh;
+    display: block;
+    position: relative;
+  }
+  .navbar h2{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    transform: translateX(60px);
+  }
+  .navbar p{
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    transform:translateX(70px);
+  }
+  .navbar img{
+    position: absolute;
+    transform: translateY(50%);
+  }
 }
