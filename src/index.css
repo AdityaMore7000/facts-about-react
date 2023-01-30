@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+/* Use this code for this font: 
+font-family: 'Arimo', sans-serif;
+*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 /* navbar */
@@ -44,9 +48,9 @@
   font-size: x-large;
 }
 .list ul{
+  margin-left: 1.5rem;
   position: relative;
   z-index: 1;
-  margin-left: 1.5rem;
 }
 
 .list li{
@@ -54,9 +58,9 @@
 }
 
 .list h1{
+  margin: 2rem 0;
   position: relative;
   z-index: 1;
-  margin: 2rem 0;
 }
 
 .list li::marker{
@@ -65,7 +69,6 @@
 
 #bckg{
   position: absolute;
-  z-index: 0;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
