@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 /* Use this code for this font: 
-font-family: 'Arimo', sans-serif;
+font-family: 'Comfortaa', cursive;
 */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 /* navbar */
