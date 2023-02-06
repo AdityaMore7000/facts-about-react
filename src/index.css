@@ -104,4 +104,7 @@ font-family: 'Comfortaa', cursive;
     position: absolute;
     transform: translateY(50%);
   }
+  #bckg{
+    position: absolute;
+  }
 }
