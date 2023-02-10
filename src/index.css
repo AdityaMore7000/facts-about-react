@@ -9,6 +9,12 @@ font-family: 'Comfortaa', cursive;
   font-family: 'Comfortaa', cursive;
 }
 
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /* navbar */
 
 .navbar{
