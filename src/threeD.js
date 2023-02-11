@@ -3,7 +3,7 @@ import * as THREE from 'three'
 
 function init(){
   var scene = new THREE.Scene();
-  var geometry = new THREE.SphereGeometry(3,32,32);
+  var geometry = new THREE.SphereGeometry(2,32,32);
   var material = new THREE.MeshBasicMaterial({
     color:'#44aa88'
   });
