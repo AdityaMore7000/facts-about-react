@@ -25,8 +25,9 @@ function init(){
   renderer.render(scene,camera)
   const time = new Date().getSeconds();
   function update(time){
-    mesh.rotation.x = time/1000;
-    mesh.rotation.y = time/1000;
+    mesh.rotation.x = time/2000;
+    mesh.rotation.y = time/2000;
+    mesh.rotation.z = time/2000;
     renderer.render(scene,camera);
     requestAnimationFrame(update);
   }
